@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 54%;
+    padding-top: 4rem;
+    margin-left: 6%;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.link {
+    list-style-type:none;
+    margin-left: auto;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9rem;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-img {
+    display: block;
+}
+
+.section-one-about {
+    align-self: center;
+}
+
+.section-one-about {
+    width: 50%;
+}
+
+.section-one-para {
+    width: 75%;
+    margin-top: 0.8rem;
+}
+
+.name, .section-three-heading {
+    font-size: 45px;
+}
+
+.talk-btn {
+    border: none;
+    background-color: rgb(45, 182, 45);
+    color: white;
+    padding: 0.6rem 1.55rem;
+    border-radius: 3px;
+    margin-top: 1.7rem;
+}
+
+.section-one-img-container {
+    position: relative;
+}
+
+.green-section {
+    position: absolute;
+    width: 400px;
+    height: 630px;
+    background-color: rgb(45, 182, 45);
+    top: -232px;
+    left: -63.5px;
+    z-index: -1;
+}
+
+.section-two {
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+}
+
+.section-one-para, .section-two-para, .section-three-para {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.heading {
+    font-size: 80px;
+    width: 280px;
+    line-height: 1;
+}
+
+.section-two-details {
+    width: 64%;
+    align-self: flex-end;
+}
+
+.section-two-heading {
+    width: 30%;
+    position: relative;
+}
+
+.section-two-background {
+    position: absolute;
+    top: -5px;
+    left: -100px;
+    z-index: -1;
+}
+
+.date {
+    color: rgb(45, 182, 45);
+}
+
+.section-two-para {
+    width: 64%;
+}
+
+.section-three-heading, .section-three-para {
+    text-align: center;
+}
+
+.section-three-heading {
+    margin-bottom: 3rem;
+}
+
+.section-three-para {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.section-three {
+    margin-top: 3rem;
+}
+
+.section-work {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.work-para {
+    font-size: 12px;
+    font-weight: 600;
+    width: 200px;
+    margin: 0.4rem 0;
+}
+
+.work-container {
+    margin-top: 7rem;
+}
+
+.work-link {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(45, 182, 45);
+}
+
+.section-work + .section-work {
+    margin-top: 3.5rem;
+}
+
+.work-img-container {
+    position: relative;
+}
+
+.work-tag {
+    position: absolute;
+    width: 26px;
+    height: 40px;
+    background-color: rgb(45, 182, 45);
+    top: -10px;
+    left: 10px;
+}
