@@ -66,6 +66,11 @@ header {
     padding: 0.6rem 1.55rem;
     border-radius: 3px;
     margin-top: 1.7rem;
+    cursor: pointer;
+}
+
+.talk-btn:hover {
+    background-color: rgb(171, 214, 83);
 }
 
 .section-one-img-container {
